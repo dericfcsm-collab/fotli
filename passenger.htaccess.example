@@ -1,0 +1,9 @@
+PassengerEnabled On
+PassengerAppType node
+PassengerStartupFile server.js
+PassengerAppRoot /home/ACCOUNT/fotli-app
+PassengerNodejs /home/ACCOUNT/fotli-app/.local/bin/node
+PassengerAppEnv production
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://YOUR_DOMAIN/$1 [R=301,L]

@@ -1,0 +1,14 @@
+{
+  "name": "fotli-case",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Fotli: portfolio case study and recovered Node.js deployment adapter for an AI photo service.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node proxy-check.mjs",
+    "start": "node server.js"
+  }
+}
